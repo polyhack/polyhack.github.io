@@ -252,6 +252,10 @@ table.plain tbody > tr:nth-child(odd) > th {
    background: transparent;
 }
 
+table img.avatar {
+    height: 30px;
+}
+
 /* ======================================================
     1 - Header
 ====================================================== */

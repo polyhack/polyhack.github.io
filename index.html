@@ -22,9 +22,13 @@
     ================================================== -->
   <link rel="shortcut icon" href="./img/favicon.png">
 
+  <!-- script
+    ================================================== -->
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+  <script src="./js/polyhack.js"></script>
 
 </head>
-<body>
+<body ng-app='poly'>
 
   <header>
     <div class="container">
@@ -62,109 +66,19 @@
       <div class="row">
         <div class="col-md-12">
           <h6>Members</h6>
-          <table>
+          <table ng-controller='UserListController'>
             <tr>
+              <th> - </th>
               <th>Name</th>
               <th>Location</th>
               <th>Language Focus</th>
             </tr>
-	    <tr>
-              <td><a href='http://github.com/markmandel'>[Neurotic]</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Go, Clojure, J/Ruby</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/andrebuchanan'>andrebuchanan</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Node.js</td>
-            </tr>
-            <tr>
-              <td><a href='https://github.com/aussiegeek'>aussiegeek</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Ruby, Go</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/mwotton'>blackdog</a></td>
-              <td>Vietnam</td>
-              <td>Haskell, Ansible, not-Javascript, not-Go.</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/bulkan'>bulkan</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Node.js</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/cgiffard'>cgiffard</a></td>
-              <td>Sydney/Canberra, Australia</td>
-              <td>Node.js, Erlang</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/deoxxa'>deoxxa</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Node.js, C</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/eugeneware'>eugeneware</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Node.js</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/joshwnj'>joshwnj</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Node.js, PHP</td>
-            </tr>
-            <tr>
-              <td><a href='https://github.com/michaelneale'>michaelneale</a></td>
-              <td>Blue Mountains, Australia</td>
-              <td>Erlang, Clojure, Scala, Bash, Haskell, Bash, Go, Javascript.</td>
-            </tr>            
-            <tr>
-              <td><a href='http://github.com/nicholasf'>nicholasf</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Elixir, Javascript, post Ruby, post Java.</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/ocke'>ocke</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Javascript, PHP</td>
-            </tr>
-            <tr>
-              <td><a href='https://github.com/pomke'>Pomke</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Javascript, Python</td>
-            </tr>
-            <tr>
-              <td><a href='https://github.com/rkstedman'>rkstedman</a></td>
-              <td>Cambridge, MA</td>
-              <td>Node.js</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/robzolkos'>robzolkos</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Ruby, Node.js, Javascript, Go</td>
-              <td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/rvagg'>rvagg</a></td>
-              <td>NSW, Australia</td>
-              <td>Node.js</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/SomeoneWeird'>SomeoneWeird</a></td>
-              <td>Melbourne, Australia</td>
-              <td>Javascript, Go</td>
-            </tr>
-            <tr>
-              <td><a href='http://github.com/timoxley'>timoxley</a></td>
-              <td>Singapore</td>
-              <td>Node.js</td>
-            </tr>
-            <tr>
-              <td><a href='https://github.com/yangwao'>wao-ender</a></td>
-              <td>Bratislava, Slovakia</td>
-              <td>Node.js</td>
-            </tr>
-
+            <tr ng-repeat='user in users'>
+                <td><img class='avatar' ng-src='{{details[user.github].avatar_url}}'></td>
+                <td><a ng-href='https://github.com/{{user.github}}'>{{user.nick}}</a></td>
+                <td>{{details[user.github].location}}</td>
+                <td>{{user.lang}}</td>
+            </tr> 
           </table>
         </div>
 
