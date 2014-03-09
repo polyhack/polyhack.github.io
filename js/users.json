@@ -1,5 +1,5 @@
 [
-    { "github" : "markmandel", "nick" : "[Neurotic]", "lang" : "Go, Clojure, J/Ruby" },                                          
+    { "github" : "markmandel", "nick" : "[Neurotic]", "lang" : "Go, Clojure, J/Ruby" },
     { "github" : "andrebuchanan", "nick" : "andrebuchanan", "lang" : "Node.js" },
     { "github" : "aussiegeek", "nick" : "aussiegeek", "lang" : "Ruby, Go" },
     { "github" : "mwotton", "nick" : "blackdog", "lang" : "Haskell, Ansible, not-Javascript, not-Go." },
@@ -9,7 +9,6 @@
     { "github" : "eugeneware", "nick" : "eugeneware", "lang" : "Node.js" },
     { "github" : "joshwnj", "nick" : "joshwnj", "lang" : "Node.js, PHP" },
     { "github" : "michaelneale", "nick" : "michaelneale", "lang" : "Erlang, Clojure, Scala, Bash, Haskell, Go, Javascript." },
-    { "github" : "wolfeidau", "nick" : "wolfeidau", "lang" : "Bash, Go, Javascript, C, C++, HTML, CSS." },
     { "github" : "nicholasf", "nick" : "nicholasf", "lang" : "Elixir, Javascript, post Ruby, post Java." },
     { "github" : "ocke", "nick" : "ocke", "lang" : "Javascript, PHP" },
     { "github" : "pomke", "nick" : "pomke", "lang" : "Javascript, Python" },
@@ -19,6 +18,7 @@
     { "github" : "SomeoneWeird", "nick" : "SomeoneWeird", "lang" : "Javascript, Go" },
     { "github" : "sporto", "nick" : "sporto", "lang" : "Javascript, Ruby, Go" },
     { "github" : "timoxley", "nick" : "timoxley", "lang" : "Node.js" },
-    { "github" : "yangwao", "nick" : "wao-ender", "lang" : "Node.js" }
+    { "github" : "yangwao", "nick" : "wao-ender", "lang" : "Node.js" },
+    { "github" : "wolfeidau", "nick" : "wolfeidau", "lang" : "Bash, Go, Javascript, C, C++, HTML, CSS." }
 ]
 
