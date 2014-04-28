@@ -3,6 +3,7 @@ var Poly = angular.module('poly', []);
 Poly.factory('users', function () {
     return [
         { "github" : "markmandel", "nick" : "[Neurotic]", "lang" : "Go, Clojure, J/Ruby" },                                          
+        { "github" : "kvanberendonck", "nick" : "Aetherspawn", "lang" : "Haskell, C, C++" },
         { "github" : "andrebuchanan", "nick" : "andrebuchanan", "lang" : "Node.js" },
         { "github" : "aussiegeek", "nick" : "aussiegeek", "lang" : "Ruby, Go" },
         { "github" : "mwotton", "nick" : "blackdog", "lang" : "Haskell, Ansible, not-Javascript, not-Go." },
@@ -11,7 +12,6 @@ Poly.factory('users', function () {
         { "github" : "deoxxa", "nick" : "deoxxa", "lang" : "Node.js, C" },
         { "github" : "eugeneware", "nick" : "eugeneware", "lang" : "Node.js" },
         { "github" : "joshwnj", "nick" : "joshwnj", "lang" : "Node.js, PHP" },
-        { "github" : "kvanberendonck", "nick" : "Aetherspawn", "lang" : "Haskell, C, C++" },
         { "github" : "michaelneale", "nick" : "michaelneale", "lang" : "Erlang, Clojure, Scala, Bash, Haskell, Go, Javascript." },
         { "github" : "nicholasf", "nick" : "nicholasf", "lang" : "Elixir, Javascript, post Ruby, post Java." },
         { "github" : "ocke", "nick" : "ocke", "lang" : "Javascript, PHP" },
