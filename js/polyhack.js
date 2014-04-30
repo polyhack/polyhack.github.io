@@ -9,7 +9,7 @@ Poly.factory('users', function () {
         { "github" : "mwotton", "nick" : "blackdog", "lang" : "Haskell, Ansible, not-Javascript, not-Go." },
         { "github" : "bulkan", "nick" : "bulkan", "lang" : "Node.js" },
         { "github" : "cgiffard", "nick" : "cgiffard", "lang" : "Node.js, Erlang" },
-        { "github" : "damncabbage", "nick" : "damncabbage", "lang" : "Ruby, Javascript, not-PHP, attempted Haskell." },
+        { "github" : "damncabbage", "nick" : "damncabbage", "lang" : "Ruby, Javascript, not-PHP, Haskell." },
         { "github" : "deoxxa", "nick" : "deoxxa", "lang" : "Node.js, C" },
         { "github" : "eugeneware", "nick" : "eugeneware", "lang" : "Node.js" },
         { "github" : "joshwnj", "nick" : "joshwnj", "lang" : "Node.js, PHP" },
