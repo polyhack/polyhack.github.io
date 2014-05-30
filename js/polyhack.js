@@ -26,7 +26,7 @@ Poly.factory('users', function () {
         { "github" : "yangwao", "nick" : "wao-ender", "lang" : "Node.js" },
         { "github" : "wolfeidau", "nick" : "wolfeidau", "lang" : "Bash, Go, Javascript, C, C++, HTML, CSS." },
         { "github" : "markdalgleish", "nick" : "markdalgleish", "lang" : "Javascript, Node.js, HTML, CSS" },
-        { "github" : "curiad", "nick" : "Curia", "lang" : "HTML, CSS, Javascript" }
+        { "github" : "Curiad", "nick" : "Curia", "lang" : "HTML, CSS, Javascript" }
     ];
 });
 
