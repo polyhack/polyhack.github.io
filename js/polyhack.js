@@ -8,11 +8,13 @@ Poly.factory('users', function () {
         { "github" : "aussiegeek", "nick" : "aussiegeek", "lang" : "Ruby, Go" },
         { "github" : "mwotton", "nick" : "blackdog", "lang" : "Haskell, Ansible, not-Javascript, not-Go." },
         { "github" : "bulkan", "nick" : "bulkan", "lang" : "Node.js" },
+        { "github" : "Curiad", "nick" : "Curia", "lang" : "HTML, CSS, Javascript" },
         { "github" : "cgiffard", "nick" : "cgiffard", "lang" : "Node.js, Erlang" },
         { "github" : "damncabbage", "nick" : "damncabbage", "lang" : "Ruby, Javascript, not-PHP, Haskell." },
         { "github" : "deoxxa", "nick" : "deoxxa", "lang" : "Node.js, C" },
         { "github" : "eugeneware", "nick" : "eugeneware", "lang" : "Node.js" },
         { "github" : "joshwnj", "nick" : "joshwnj", "lang" : "Node.js, PHP" },
+        { "github" : "markdalgleish", "nick" : "markdalgleish", "lang" : "Javascript, Node.js, HTML, CSS" },
         { "github" : "michaelneale", "nick" : "michaelneale", "lang" : "Erlang, Clojure, Scala, Bash, Haskell, Go, Javascript." },
         { "github" : "nicholasf", "nick" : "nicholasf", "lang" : "Elixir, Javascript, post Ruby, post Java." },
         { "github" : "ocke", "nick" : "ocke", "lang" : "Javascript, PHP" },
@@ -24,9 +26,7 @@ Poly.factory('users', function () {
         { "github" : "sporto", "nick" : "sporto", "lang" : "Javascript, Ruby, Go" },
         { "github" : "timoxley", "nick" : "timoxley", "lang" : "Node.js" },
         { "github" : "yangwao", "nick" : "wao-ender", "lang" : "Node.js" },
-        { "github" : "wolfeidau", "nick" : "wolfeidau", "lang" : "Bash, Go, Javascript, C, C++, HTML, CSS." },
-        { "github" : "markdalgleish", "nick" : "markdalgleish", "lang" : "Javascript, Node.js, HTML, CSS" },
-        { "github" : "Curiad", "nick" : "Curia", "lang" : "HTML, CSS, Javascript" }
+        { "github" : "wolfeidau", "nick" : "wolfeidau", "lang" : "Bash, Go, Javascript, C, C++, HTML, CSS." }
     ];
 });
 
