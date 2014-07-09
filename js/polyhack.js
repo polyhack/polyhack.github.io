@@ -24,6 +24,7 @@ Poly.factory('users', function () {
         { "github" : "rvagg", "nick" : "rvagg", "lang" : "Node.js" },
         { "github" : "SomeoneWeird", "nick" : "SomeoneWeird", "lang" : "Javascript, Go" },
         { "github" : "sporto", "nick" : "sporto", "lang" : "Javascript, Ruby, Go" },
+        { "github" : "thepatrick", "nick": "thepatr1ck", "lang": "Javascript, Objective-C, Swift, Ruby, not-Java." },
         { "github" : "timoxley", "nick" : "timoxley", "lang" : "Node.js" },
         { "github" : "yangwao", "nick" : "wao-ender", "lang" : "Node.js" },
         { "github" : "wolfeidau", "nick" : "wolfeidau", "lang" : "Bash, Go, Javascript, C, C++, HTML, CSS." }
