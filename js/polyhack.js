@@ -16,7 +16,7 @@ Poly.factory('users', function () {
         { "github" : "joshwnj", "nick" : "joshwnj", "lang" : "Node.js, PHP" },
         { "github" : "markdalgleish", "nick" : "markdalgleish", "lang" : "Javascript, Node.js, HTML, CSS" },
         { "github" : "michaelneale", "nick" : "michaelneale", "lang" : "Erlang, Clojure, Scala, Bash, Haskell, Go, Javascript." },
-        { "github" : "MiracleBlue", "nick" : "MiracleBlue", "lang" : "HTML, CSS, Node.js, JavaScript, and more JavaScript." },
+        { "github" : "MiracleBlue", "nick" : "MiracleBlue", "lang" : "HTML, CSS, Node.js, JavaScript." },
         { "github" : "nicholasf", "nick" : "nicholasf", "lang" : "Elixir, Javascript, post Ruby, post Java." },
         { "github" : "ocke", "nick" : "ocke", "lang" : "Javascript, PHP" },
         { "github" : "pomke", "nick" : "pomke", "lang" : "Javascript, Python" },
